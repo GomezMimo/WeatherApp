@@ -1,0 +1,125 @@
+/*Main CSS*/
+
+body{
+	background: linear-gradient(to bottom, #226666, #669999);
+	background-repeat: repeat-y;
+	color: white;
+	height: 965px;
+	font-family: arial;
+	font-size: 16px;
+	margin: 0px auto;
+	width: 900px;
+}
+
+header{		
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 3px;	
+	margin-top: 20px;
+	text-align: center;
+	text-shadow: 2px 3px 1px gray;
+}
+
+form{
+	margin-top: 30px;	
+	text-align: center;
+}
+
+input[type="text"]{
+	border-radius: 5px;
+	color: black;
+	font-size: 22px;
+	height: 35px;
+	text-align: center;
+	width: 470px;
+}
+
+input[type="button"]{	
+	background:orange;
+  	color:white;
+  	border:1px solid #aaa;
+  	border-radius: 5px;
+  	font-size:20px;
+  	margin-top: 20px;	
+}
+
+input[type="button"]:active{		
+	color:#3344cc;
+}
+
+div{
+	display: block;		
+	margin-top: 10px;	
+	text-align: center;
+}
+
+div > p {	
+	font-size: 18px;	
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+#container{
+	width: 100%;
+	text-align: left;
+}
+
+footer{	
+	clear: both;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-align: center;
+
+}
+
+.text{
+	display: block;
+}
+
+
+.property{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.value{	
+	letter-spacing: 1px;
+}
+
+#time{	
+	margin-top: 20px;
+	text-align: right;
+}
+
+.items{
+	color: #99c9c9;
+	display: block;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-top: 15px;
+}
+
+.items > span {
+	color: #0d4d4d;
+	font-weight: bold;
+	margin-right: 5px;
+
+}
+
+#container-data{
+	width: 400px;
+	float: left;
+	text-align: left;
+}
+
+#container-image{
+	float: right;
+}
+
+
+
+
+
+
+
+
